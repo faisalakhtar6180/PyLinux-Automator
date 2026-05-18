@@ -1,0 +1,12 @@
+{
+    "default_organize_dir": "~/Downloads",
+    "default_backup_dir": "~/",
+    "backup_storage_dir": "backups",
+    "disk_warn_threshold": 85,
+    "log_level": "INFO",
+    "theme": "dark",
+    "auto_schedule_backup": false,
+    "backup_schedule_time": "02:00",
+    "cleanup_extensions": [".tmp", ".log", ".bak", ".swp", ".DS_Store"],
+    "reports_dir": "reports"
+}
