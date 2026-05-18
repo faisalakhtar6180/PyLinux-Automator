@@ -8,41 +8,9 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
 </p>
 
-> **A complete Linux automation toolkit** — organize files, backup data, monitor disk usage, clean your system, detect duplicates, and view a live system dashboard — all from a beautiful, beginner-friendly terminal interface.
+> **A complete Linux automation toolkit** — organize files, backup data, monitor disk usage, clean your system, detect duplicates, and view a live system dashboard — all from a  beginner-friendly terminal interface.
 
 ---
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Screenshots](#-screenshots)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Future Improvements](#-future-improvements)
-- [GitHub Upload Guide](#-upload-to-github)
-- [License](#-license)
-
----
-
-## 🔍 Overview
-
-**PyLinux Automator** is a modular, resume-worthy Python project designed for B.Tech IT students targeting internships in **Python Development**, **DevOps**, **Linux System Administration**, and **Cybersecurity**.
-
-It demonstrates real-world skills:
-- **Object-Oriented Programming** and modular architecture
-- **CLI development** with the Rich library
-- **File system automation** using `pathlib`, `shutil`, `os`
-- **System monitoring** using `psutil`
-- **Concurrent programming** with `ThreadPoolExecutor`
-- **Scheduling** with the `schedule` library
-- **Data persistence** with JSON config and backup history logs
-
----
-
 ## ✨ Features
 
 | # | Feature | Description |
@@ -196,93 +164,7 @@ Directory: ~/Pictures
 # Scans with multi-threading, shows duplicate groups
 ```
 
----
-
-## 📸 Screenshots
-
-> _Screenshots section — add your own terminal captures here._
-
-| Feature | Screenshot |
-|---------|-----------|
-| Main Menu | _(add screenshot)_ |
-| File Organizer | _(add screenshot)_ |
-| System Dashboard | _(add screenshot)_ |
-| Disk Monitor | _(add screenshot)_ |
-| Duplicate Finder | _(add screenshot)_ |
-
-**Tip — capture screenshots:**
-```bash
-# Record a terminal session as a gif:
-sudo apt install asciinema
-asciinema rec demo.cast
-# Replay:
-asciinema play demo.cast
-```
-
----
-
-## 🧠 Skills Demonstrated
-
-| Category | Skills |
-|----------|--------|
-| **Python** | OOP, modules, generators, decorators, type hints, context managers |
-| **CLI** | Rich library, progress bars, panels, tables, interactive prompts |
-| **Linux** | File system operations, process management, system calls |
-| **DevOps** | Backup automation, scheduling, disk monitoring, logging |
-| **Security** | Safe file deletion, permission handling, input validation |
-| **Concurrency** | `ThreadPoolExecutor` for fast parallel file hashing |
-| **Data** | JSON config management, structured logging, history tracking |
-
----
-
-## 🔮 Future Improvements
-
-- [ ] **SQLite database** for richer backup and action history queries
-- [ ] **Email/Telegram alerts** when disk usage exceeds threshold
-- [ ] **Export reports** to CSV / PDF
-- [ ] **SSH remote backup** support
-- [ ] **Systemd service** integration for background scheduling
-- [ ] **TUI mode** (Textual library) for full keyboard-driven UI
-- [ ] **Plugin system** for community-contributed automation modules
-- [ ] **Docker container** for portable deployment
-- [ ] **Unit tests** with `pytest`
-- [ ] **GitHub Actions CI** pipeline
-
----
-
-## 📤 Upload to GitHub
-
-### Step-by-step for a professional portfolio repo
-
-```bash
-# 1. Create a new repo on github.com (name: PyLinux-Automator)
-
-# 2. Inside the project directory:
-git init
-git add .
-git commit -m "feat: initial release — PyLinux Automator v1.0.0"
-
-# 3. Add remote and push
-git remote add origin https://github.com/<your-username>/PyLinux-Automator.git
-git branch -M main
-git push -u origin main
-```
-
-### Recommended repo settings
-- ✅ Add a **description**: "A modular Linux automation toolkit built with Python & Rich"
-- ✅ Add **topics/tags**: `python`, `linux`, `cli`, `automation`, `devops`, `rich`, `psutil`, `kali-linux`
-- ✅ Enable **Issues** and **Discussions**
-- ✅ Add a `LICENSE` file (MIT)
-- ✅ Pin this repo on your GitHub profile
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
-
----
 
 <p align="center">
-  Made with ❤️ using Python 🐍 | Built for Linux 🐧 | Designed for learners 🎓
+  Made with ❤️ using Python 🐍 | Built for Linux 🐧 
 </p>
